@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Form Sayfası</title>
+</head>
+
+<body style = "margin-top:50px;margin-left: 5in;">
+<h1>User Data</h1>
+
+<form  method="get" action="data_user">
+
+    
+<table width="345" border="2" cellspacing="1" cellpadding="0">
+  <tr>
+    <td>Adınız</td>
+    <td><input type="text" name="ad" size="54px" id="ad"></td>
+  </tr>
+  <tr>
+    <td>Soyadınız</td>
+    <td><input type="text" name="soyad" size="54px" id="soyad"><br></td>
+  </tr>
+  <tr>
+    <td>Cinsiyet</td>
+    <td><input type="radio" name= "cinsiyet" value = "BAY" checked> BAY
+  <input type="radio" name= "cinsiyet" value = "BAYAN" > BAYAN</td>
+  </tr>
+  <tr>
+    <td>Meslek</td>
+    <td><select style="width: 150px;" name="meslek" id="meslek">
+        <option> Secilmedi </option>
+        <option> Muhendis </option>
+        <option> Doktor </option>
+        <option> Ogretmen </option>
+        <option> Avukat </option>
+        </select></td>
+  </tr>
+  <tr>
+      <td>Tecrübe Yılı </td>
+      <td><select name="tecrube" size="""1" id="tecrube">
+              <option value="0-2 YIL">0 - 2 YIL</option>
+              <option value="2-5 YIL">2 - 5 YIL</option>
+              <option value="5-10 YIL">5 - 10 YIL</option>
+              <option value="11 - ...">11 - ...</option>
+          </select>
+      
+      </td>
+  </tr>
+  <tr>
+      <td>Mail</td> 
+      <td><input type="text" name="mail" size="54px" id="mail"><br></td>
+      
+  </tr>
+</table>
+<input type="submit" value="Gönder">
+<input type="reset" value="Sıfırla">
+
+</form>
+</body>
+</html>
