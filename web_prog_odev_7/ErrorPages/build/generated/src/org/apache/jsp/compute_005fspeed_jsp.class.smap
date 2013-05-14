@@ -1,0 +1,13 @@
+SMAP
+compute_005fspeed_jsp.java
+JSP
+*S JSP
+*F
++ 0 compute_speed.jsp
+compute_speed.jsp
+*L
+1,16:44
+16,5:60
+21,3:65,3
+24,7:74
+*E
